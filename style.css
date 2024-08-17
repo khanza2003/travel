@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+}
+.home{
+    background: url(./images/background.webp);
+    width: 100%;
+    height: 100vh;
+}
+.home h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+}
+.home h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Pacifico", cursive;
+    line-height: 100px;
+}
+.heading{
+    margin-left: 1300px;
+    margin-top: 150px;
+}
+.pop{
+    margin-left: 1100px;
+    margin-top: 50px;
+}
+.first h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px 20px;
+}
+.first button{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 10px;
+    margin-left: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.first button:hover{
+    background-color: red;
+}
+.second h1{
+    text-align: center;
+    margin: 30px 0px;
+}
+#cola:hover{
+    border-color: rgb(30, 29, 29);
+    border-width: 4px;
+    border-right: rgb(10, 10, 9);
+    border-bottom: black;
+}
+#colb:hover{
+    border-color: rgb(30, 29, 29);
+    border-width: 4px;
+    border-right: rgb(10, 10, 9);
+    border-bottom: black;
+}
+
+#colc:hover {
+    border-color: rgb(30, 29, 29);
+    border-width: 4px;
+    border-right: rgb(10, 10, 9);
+    border-bottom: black;
+}
+#cold:hover {
+    border-color: rgb(30, 29, 29);
+    border-width: 4px;
+    border-right: rgb(10, 10, 9);
+    border-bottom: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.cola{
+    background: url(./images/gr1.jpeg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colb{
+    background: url(./images/gr2.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colc{
+    background: url(./images/gr3.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cold{
+    background: url(./images/gr4.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cole{
+    background: url(./images/gr9.jpg);
+    height: 500px;
+    margin-top: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colf{
+    background: url(./images/gr6.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colh{
+    background: url(./images/gr7.jpg);
+    height: 190px;
+    margin-top: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colg{
+    background: url(./images/gr8.jpeg);
+    height: 190px;
+    margin-top: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third{
+    margin-top: 40px;
+}
+.four h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 20px 20px;   
+}
+.five h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 20px;  
+}
+.five span{
+    margin-left: 850px;
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+    font-weight: 600;  
+    color: red;
+    margin-bottom: 50px;
+    display: block;
+}
+.six{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.image{
+    margin-left: 950px;
+    width: 100px;
+    margin-top: 50px;
+}
+.six h1{
+    color: blue;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+.six h2{
+    margin-left: 150px;
+}
+.star{
+    width: 150px;
+    display: block;
+    margin-left: 150px;
+}
+.footer{
+    background-color: rgb(46, 46, 121);
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.footer h1{
+    font-size: 30px;
+    color: rgb(242, 100, 49);
+    margin-top: 40px;
+}
+.footer h3{
+    color: white;
+    font-weight: 300;
+}
+i{
+    margin: 10px 40px 0px 0px;
+}
+.footer h2{
+    color: white;
+    font-weight: 400;
+}
+.footimg{
+    width: 150px;
+    margin-left: 50px;
+}
+.five img{
+    border-radius: 100%;
+}
+.five a{
+    color: blue;
+    border: none;
+    margin-left: 30px;
+}
+.four img{
+    padding: 30px 30px;
+}
+.card{
+    position: relative;
+}
+img{
+    display: block;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 212, 132, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+.content:hover{
+    opacity: 75;
+}
+.modal-body{
+    text-align: center;
+}
+.modal-title{
+    margin-left: 80px;
+}
+@media(max-width:760px){
+    #frst1{
+        margin-left: 48px;
+    }
+    #frst2{
+        margin-left: 48px;
+    }
+    #frst3{
+        margin-left: 48px;
+    }
+    #sec1{
+        margin-left: 48px;
+    }
+    #sec2{
+        margin-left: 48px;
+    }
+    #sec3{
+        margin-left: 48px;
+    }
+}
